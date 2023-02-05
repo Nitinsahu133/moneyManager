@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.total-details-card {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.total-details-image {
+  height: 60px;
+  margin: 25px;
+}
+
+.total-details-balance-container {
+  margin: 10px;
+}
+
+.total-type-head {
+  font-family: Roboto;
+  color: #475569;
+  font-size: 14px;
+}
+.total-balance {
+  font-family: Roboto;
+  color: #475569;
+  font-size: 18px;
+}
+
+.balance-card-color {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-card-color {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses-card-color {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+@media (min-width: 768px) {
+  .total-details-card {
+    width: 400px;
+  }
+  .total-details-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .form-history-container {
+    display: flex;
+  }
+}

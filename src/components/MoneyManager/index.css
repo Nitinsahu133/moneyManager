@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  padding: 20px;
+}
+.welcome-card {
+  padding: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 25px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.welcome-paragraph {
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 15px;
+}
+.welcome-money-manager-text {
+  color: #0b69ff;
+  font-weight: 500;
+}
+.form {
+  margin: 10px;
+  margin-top: 20px;
+  border: 1px solid #7e858e;
+  border-radius: 15px;
+  padding: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: 500;
+  font-family: Roboto;
+  margin: 10px;
+}
+.input-label {
+  color: #7e858e;
+  font-family: Roboto;
+  margin: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.input-element {
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 5px;
+  outline: none;
+  border: 1px solid #585a5e;
+}
+.add-button {
+  color: white;
+  border: none;
+  background-color: #0b69ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 10px;
+}
+.history-container {
+  border: 1px solid #7e858e;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.history-table-header-container {
+  display: flex;
+  border: 1px solid #7e858e;
+  padding-left: 10px;
+  padding-right: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.history-table-header-text {
+  min-width: 70px;
+  width: 40%;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.history-ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.history-heading {
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: 500;
+  font-family: Roboto;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    width: 70%;
+  }
+  .history-container {
+    width: 100%;
+    margin-left: 40px;
+  }
+}

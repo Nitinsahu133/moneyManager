@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.history-table-transaction {
+  display: flex;
+  border: 1px solid #7e858e;
+  border-top: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.history-transaction-delete-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+.delete-button-icon {
+  height: 20px;
+}
+.history-transaction-column {
+  min-width: 70px;
+  width: 100%;
+  font-size: 13px;
+}
